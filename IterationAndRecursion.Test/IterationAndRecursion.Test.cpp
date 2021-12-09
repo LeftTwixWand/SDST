@@ -12,11 +12,11 @@ namespace IterationAndRecursionTest
 		
 		TEST_METHOD(TestMethod1)
 		{
-			BinarySearch* bs = new BinarySearch("");
+			BinarySearch* binarySearchTask = new BinarySearch("");
 			int* array = new int[5]{ 1, 2, 3, 4, 5 };
 
-			int searchedIndex = bs->GetBinarySearchIndex(array, 5, 3);
-			Assert::AreEqual(2, 2);
+			int searchedIndex = binarySearchTask->GetBinarySearchIndex(array, 5, 3);
+			Assert::AreEqual(2, searchedIndex);
 		}
 	};
 }
