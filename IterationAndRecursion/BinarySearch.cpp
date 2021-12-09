@@ -27,7 +27,7 @@ void BinarySearch::Process()
 	delete[] array;
 }
 
-int BinarySearch::GetBinarySearchIndex(int* arr, int high, int searchValue)
+int BinarySearch::GetBinarySearchIndex(int* array, int high, int searchValue)
 {
 	int low = 0, middle;
 
@@ -35,12 +35,12 @@ int BinarySearch::GetBinarySearchIndex(int* arr, int high, int searchValue)
 	{
 		middle = low + (high - low) / 2;
 
-		if (arr[middle] == searchValue)
+		if (array[middle] == searchValue)
 		{
 			return middle;
 		}
 
-		if (arr[middle] < searchValue)
+		if (array[middle] < searchValue)
 		{
 			low = middle + 1;
 		}

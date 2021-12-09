@@ -1,9 +1,11 @@
 #pragma once
-#ifndef TASK_H
-#define TASK_H
+#ifndef Task_H
+#define Task_H
 
-#include <string>
+#include "pch.h"
+#include "framework.h"
 #include <iostream>
+#include <string>
 
 class Task
 {
@@ -16,4 +18,4 @@ public:
 	void StartExecution();
 };
 
-#endif // !TASK_H
+#endif // !Task_H

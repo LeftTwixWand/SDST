@@ -7,9 +7,9 @@
 class BinarySearch : public Task
 {
 private:
-	int GetBinarySearchIndex(int* arr, int high, int searchValue);
 	void Process() override;
 public:
+	int GetBinarySearchIndex(int* array, int high, int searchValue);
 	BinarySearch(std::string introductionText);
 };
 
