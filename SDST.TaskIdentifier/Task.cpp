@@ -2,7 +2,13 @@
 
 Task::Task(std::string introductionText)
 {
-	std::cout << introductionText << std::endl;
+	_introductionText = introductionText;
+}
+
+void Task::StartExecution()
+{
+	std::cout << R"(\\\\\\\\\\\\\\\  )" << _introductionText << "  ///////////////" << std::endl;
+	Process();
 }
 
 void Task::Process()

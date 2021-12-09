@@ -7,9 +7,13 @@
 
 class Task
 {
+private:
+	std::string _introductionText;
+protected:
+	virtual void Process();
 public:
 	Task(std::string introductionText);
-	virtual void Process();
+	void StartExecution();
 };
 
 #endif // !TASK_H
