@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3f80976d-c91f-4aff-85fc-d32a4f0a40ea}</ProjectGuid>
-    <RootNamespace>Lab67</RootNamespace>
+    <ProjectGuid>{674afa02-20d9-40b9-bccc-70c0afa565dd}</ProjectGuid>
+    <RootNamespace>IterationAndRecursion</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Lab6_7.cpp" />
+    <ClCompile Include="IterationAndRecursion.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
